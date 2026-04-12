@@ -5,24 +5,24 @@ import Link from "next/link";
 
 const trips = [
   {
-    slug: "kashmir_backpacking_trip/4n5d",
-    title: "Kashmir Backpacking Trip - 4N/5D",
+    slug: "ladakh-bike-tour/4n5d",
+    title: "Ladakh Bike Tour - 4N/5D",
     image: "https://images.unsplash.com/photo-1715457573748-8e8a70b2c1be?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     duration: "5 Days 4 Nights",
     price: 16999,
     oldPrice: 18699,
   },
   {
-    slug: "kashmir_backpacking_trip/5n6d",
-    title: "Kashmir Backpacking Trip - 5N/6D",
+    slug: "ladakh-bike-tour/5n6d",
+    title: "Ladakh Bike Tour - 5N/6D",
     image: "https://images.unsplash.com/photo-1614591276564-7b3e69347a48?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     duration: "6 Days 5 Nights",
     price: 18999,
     oldPrice: 20899,
   },
   {
-    slug: "kashmir_backpacking_trip/6n7d",
-    title: "Kashmir Backpacking Trip - 6N/7D",
+    slug: "ladakh-bike-tour/6n7d",
+    title: "Ladakh Bike Tour - 6N/7D",
     image: "https://images.unsplash.com/photo-1643449416258-5c8e7ec598b1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     duration: "7 Days 6 Nights",
     price: 20999,
@@ -37,7 +37,7 @@ export default function LadakhBike() {
       {/* Heading */}
            <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
-           Ladakh Bike Tour
+           Ladakh
           </h2>
           <div className="w-20 h-1 bg-red-600 mx-auto rounded-full"></div>
           <p className="text-gray-500 mt-4 text-lg">Your Next Favorite Destination Starts Here</p>
@@ -47,7 +47,7 @@ export default function LadakhBike() {
       <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         
         {trips.map((trip, i) => (
-          <Link key={i} href={`/${trip.slug}`}>
+          <Link key={i} href={`/trips/${trip.slug}`}>
             
             <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-300 cursor-pointer group">
               

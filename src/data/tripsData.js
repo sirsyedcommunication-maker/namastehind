@@ -102,8 +102,8 @@ const tripsData = [
   },
   {
     id: 10,
-    slug: "ladakh-bike-tour/5n6d",
-    title: "Ladakh Bike Tour - 5N/6D",
+    slug: "ladakh-bike-tour/4n5d",
+    title: "Ladakh Bike Tour - 4N/5D",
     image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
     description: "Ride through high passes, crystal lakes and the raw beauty of Ladakh.",
     visits: 10,
@@ -113,8 +113,8 @@ const tripsData = [
   },
   {
     id: 11,
-    slug: "ladakh-bike-tour/6n7d",
-    title: "Ladakh Bike Tour - 6N/7D",
+    slug: "ladakh-bike-tour/5n6d",
+    title: "Ladakh Bike Tour - 5N/6D",
     image: "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429",
     description: "A longer Ladakh ride with Pangong Lake, Tso Moriri and rugged landscapes.",
     visits: 12,
@@ -124,8 +124,8 @@ const tripsData = [
   },
   {
     id: 12,
-    slug: "ladakh-bike-tour/7n8d",
-    title: "Ladakh Bike Tour - 7N/8D",
+    slug: "ladakh-bike-tour/6n7d",
+    title: "Ladakh Bike Tour - 6N/7D",
     image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c",
     description: "The ultimate Ladakh adventure with high-altitude roads, lakes and remote villages.",
     visits: 14,

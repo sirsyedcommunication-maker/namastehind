@@ -12,7 +12,7 @@ const tripsData = [
   {
     id: 1,
     slug: "kashmir-backpacking-trip", // Unique Slug
-    title: "Kashmir Backpacking",
+    title: "Kashmir",
     image: "https://images.unsplash.com/photo-1526772662000-3f88f10405ff",
     description: "Backpack through Srinagar, Gulmarg, Sonmarg and Pahalgam with lakes, valleys, and mountain magic.",
     visits: 8,
@@ -45,7 +45,7 @@ const tripsData = [
   {
     id: 4,
     slug: "spiti_bike_tour",
-    title: "Spiti Bike Tour",
+    title: "Spiti",
     image: "https://images.unsplash.com/photo-1617159156637-dfb8655c9f95?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: "Ride through the rugged high-altitude desert of Spiti, visiting monasteries, villages and dramatic Himalayan passes.",
     visits: 5,
@@ -56,7 +56,7 @@ const tripsData = [
   {
     id: 5,
     slug: "ladakh_bike_tour",
-    title: "Ladakh Bike Tour",
+    title: "Ladakh",
     image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
     description: "Explore Ladakh’s high passes, turquoise lakes and desert beauty on an unforgettable bike adventure.",
     visits: 5,

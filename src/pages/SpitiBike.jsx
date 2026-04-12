@@ -37,7 +37,7 @@ export default function SpitiBike() {
       {/* Heading */}
            <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
-           Spiti Bike Tour 
+           Spiti
           </h2>
           <div className="w-20 h-1 bg-red-600 mx-auto rounded-full"></div>
           <p className="text-gray-500 mt-4 text-lg">Your Next Favorite Destination Starts Here</p>
@@ -47,7 +47,7 @@ export default function SpitiBike() {
       <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         
         {trips.map((trip, i) => (
-          <Link key={i} href={`/${trip.slug}`}>
+          <Link key={i} href={`/trips/${trip.slug}`}>
             
             <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-300 cursor-pointer group">
               

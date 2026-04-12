@@ -13,7 +13,7 @@ const trips = [
     oldPrice: 18699,
   },
   {
-    slug: "kashmir_backpacking_trip/5n6d",
+    slug: "kashmir-backpacking-trip/5n6d",
     title: "Kashmir Backpacking Trip - 5N/6D",
     image: "https://images.unsplash.com/photo-1614591276564-7b3e69347a48?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     duration: "6 Days 5 Nights",
@@ -21,7 +21,7 @@ const trips = [
     oldPrice: 20899,
   },
   {
-    slug: "kashmir_backpacking_trip/6n7d",
+    slug: "kashmir-backpacking-trip/6n7d",
     title: "Kashmir Backpacking Trip - 6N/7D",
     image: "https://images.unsplash.com/photo-1643449416258-5c8e7ec598b1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     duration: "7 Days 6 Nights",

@@ -18,7 +18,7 @@ const slides = [
   },
   {
     image: "https://images.unsplash.com/photo-1666501546683-f308f97016c7?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Kashmir Backpacking Trip",
+    title: "Kashmir",
     desc: "Explore the paradise on Earth with serene valleys, crystal lakes, and unforgettable landscapes.",
   },
   {
@@ -28,12 +28,12 @@ const slides = [
   },
   {
     image: "https://images.unsplash.com/photo-1581793745862-99fde7fa73d2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Ladakh Bike Tour",
+    title: "Ladakh",
     desc: "Ride through rugged terrains, high passes, and witness the raw beauty of the Himalayas.",
   },
   {
     image: "https://images.unsplash.com/photo-1617159156637-dfb8655c9f95?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Spiti Bike Tour",
+    title: "Spiti",
     desc: "Adventure into the cold desert, explore remote villages, and experience untouched natural beauty.",
   },
 ];
@@ -81,97 +81,13 @@ export default function HeroCarousel() {
         <p className="text-lg md:text-2xl playfair ">
           {slides[current].desc}
         </p>
-
-{/* <div className="w-1/3 h-12 mt-5 gap-2 justify-center bg-white/30 backdrop-blur-md border border-white/20 shadow-lg rounded-full flex items-center px-2 py-4">
-  <input className="border p-2 rounded-l-full" type="text" placeholder="Search" />
-   <div className="relative border py-2 px-12">
-          <button
-            onClick={() => setOpen(!open)}
-            className="flex items-center gap-1 cursor-pointer"
-          >
-            Trips
-            <svg
-              className={`w-3 h-3 transition-transform ${
-                open ? "rotate-180" : ""
-              }`}
-              viewBox="0 0 16 16"
-              fill="none"
-            >
-              <path
-                d="M2 5L8 10.5L14 5"
-                stroke="currentColor"
-                strokeWidth="2"
-              />
-            </svg>
-          </button>
-
-          {open && (
-            <div className="absolute top-full mt-2 w-44  bg-white/30 backdrop-blur-md border border-white/20 shadow-lg rounded-lg z-50">
-              <ul className="py-2 text-start text-black">
-                <li><Link href="/chardham_yatra" className="block px-4 py-2 hover:bg-gray-100">Char Dham Yatra</Link></li>
-                <li><Link href="/kashmir_backpacking_trip" className="block px-4 py-2 hover:bg-gray-100">Kashmir Backpacking Trip</Link></li>
-                <li><Link href="ladakh_bike_tour" className="block px-4 py-2 hover:bg-gray-100">Ladakh Bike Tour</Link></li>
-                <li><Link href="/spiti_bike_tour" className="block px-4 py-2 hover:bg-gray-100">Spiti Bike Tour</Link></li>
-                <li><Link href="/manali" className="block px-4 py-2 hover:bg-gray-100">Manali</Link></li>
-              </ul>
-            </div>
-          )}
-        </div>
-  <button className="border p-2 px-7 rounded-r-full hover:bg-blue-200">Search</button>
-</div> */}
-
-{/* <div className="w-full md:w-2/3 lg:w-1/3 mx-auto h-auto mt-5 gap-2 justify-center bg-white/30 backdrop-blur-md border border-white/20 shadow-lg rounded-full flex flex-wrap md:flex-nowrap items-center px-2 py-2">
-
- 
-  <input
-    className="flex-1 min-w-[120px] border p-2 md:rounded-l-full rounded-l-full outline-none"
-    type="text"
-    placeholder="Search"
-  />
-
-  
-  <div className="relative">
-    <button
-      onClick={() => setOpen(!open)}
-      className="flex items-center gap-1 border px-3 py-2  md:rounded-none cursor-pointer whitespace-nowrap"
-    >
-      Trips
-      <svg
-        className={`w-3 h-3 transition-transform ${
-          open ? "rotate-180" : ""
-        }`}
-        viewBox="0 0 16 16"
-        fill="none"
-      >
-        <path
-          d="M2 5L8 10.5L14 5"
-          stroke="currentColor"
-          strokeWidth="2"
-        />
-      </svg>
-    </button>
-
-    {open && (
-      <div className="absolute left-0 md:left-auto md:right-0 top-full mt-2 w-48 bg-white/30 backdrop-blur-md border border-white/20 shadow-lg rounded-lg z-50">
-        <ul className="py-2 text-start text-black">
-          <li><Link href="/chardham_yatra" className="block px-4 py-2 hover:bg-gray-100">Char Dham Yatra</Link></li>
-          <li><Link href="/kashmir_backpacking_trip" className="block px-4 py-2 hover:bg-gray-100">Kashmir Backpacking Trip</Link></li>
-          <li><Link href="/ladakh_bike_tour" className="block px-4 py-2 hover:bg-gray-100">Ladakh Bike Tour</Link></li>
-          <li><Link href="/spiti_bike_tour" className="block px-4 py-2 hover:bg-gray-100">Spiti Bike Tour</Link></li>
-          <li><Link href="/manali" className="block px-4 py-2 hover:bg-gray-100">Manali</Link></li>
-        </ul>
+ {/* <div className="flex flex-col gap-4 sm:flex-row sm:items-center"> */}
+            <Link href={"/contact"} className="inline-flex items-center justify-center mt-10 rounded-full bg-blue-700 px-8 py-3 text-white shadow-lg shadow-blue-200/50 transition hover:bg-blue-800">
+              Book Your Trip
+            </Link>
+            {/* <span className="text-sm text-slate-500">Call us at <strong>+91 98765 43210</strong> for custom plans.</span> */}
+          </div>
       </div>
-    )}
-  </div>
-
-  
-  <button className="border p-2 px-5 md:px-7 rounded-r-full  md:rounded-r-full hover:bg-blue-200 whitespace-nowrap">
-    Search
-  </button>
-
-</div> */}
-
-      </div>
-    </div>
+    // </div>
   );
 }

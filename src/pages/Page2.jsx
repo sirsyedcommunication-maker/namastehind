@@ -31,7 +31,7 @@ const Page2 = () => {
             {/* Image */}
             <div className="relative mb-4 w-16 h-16 md:w-20 md:h-20">
               <Image
-                src="/image/namastehindLogo.jpeg"
+                src="/image/namasteindiaFinelLogo.jpeg"
                 alt="logo"
                 fill
                 className="rounded-full object-cover group-hover:scale-110 transition duration-300"

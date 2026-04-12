@@ -44,12 +44,20 @@
 // }
 
 
-
+import localFont from "next/font/local";
 import { Geist, Geist_Mono, Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
+const myCustomFont = localFont({
+  src: [{ path: '../fonts/AbrilFatface-Regular.otf', weight: '400', style: 'normal' },
+    { path: '../fonts/PlayfairDisplay-Black.otf', weight: '700', style: 'normal' },
+    { path: '../fonts/PlayfairDisplay-Regular.otf', weight: '700', style: 'normal' },
+  
+  ] ,
+  variable: "--font-custom",    
+});
 const poppins = Poppins({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
@@ -101,7 +109,7 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} ${myCustomFont.variable} h-full antialiased`}
     >
       {/* Search Engine Optimization ke liye viewport aur theme color */}
       <head>

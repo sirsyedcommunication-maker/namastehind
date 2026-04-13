@@ -82,7 +82,7 @@ export default function HeroCarousel() {
           {slides[current].desc}
         </p>
  {/* <div className="flex flex-col gap-4 sm:flex-row sm:items-center"> */}
-            <Link href={"/contact"} className="inline-flex items-center justify-center mt-10 rounded-full bg-blue-700 px-8 py-3 text-white shadow-lg shadow-blue-200/50 transition hover:bg-blue-800">
+            <Link href={"/contact"} className="inline-flex items-center justify-center mt-10 rounded-full bg-[#E7000B] px-8 py-3 text-white shadow-lg shadow-blue-200/50 transition hover:bg-red-700">
               Book Your Trip
             </Link>
             {/* <span className="text-sm text-slate-500">Call us at <strong>+91 98765 43210</strong> for custom plans.</span> */}

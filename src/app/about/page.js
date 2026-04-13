@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function AboutSection() {
   return (
-    <section className="bg-slate-50 py-16 px-5 md:px-10 md:mt-15">
+    <section className="bg-slate-50 py-16 px-5 md:px-10 mt-15">
       <div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-2 items-center">
 
         <div className="space-y-8">

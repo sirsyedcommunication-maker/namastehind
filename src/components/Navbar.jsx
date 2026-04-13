@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import "../../src/app/globals.css";
+import { motion, AnimatePresence } from "framer-motion";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false); // dropdown
@@ -80,38 +81,107 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Menu */}
-      {menuOpen && (
-        <div className="absolute top-20 left-0 w-full bg-white shadow-md md:hidden z-50 rounded-xl">
-          <ul className="flex flex-col p-4 gap-3 text-black">
-            
-            <li><Link href="/" onClick={()=>{setMenuOpen(false); setOpen(false);}}>Home</Link></li>
+      <AnimatePresence>
+  {menuOpen && (
+    <>
+      {/* Backdrop for focus */}
+      {/* <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        onClick={() => setMenuOpen(false)}
+        className="fixed inset-0 bg-black/20 backdrop-blur-sm z-40 md:hidden"
+      /> */}
 
-            {/* Mobile Dropdown */}
-            <li>
-              <button
-                onClick={() => setOpen(!open)}
-                className="flex justify-between w-full"
-              >
-                Trips
-                <span>{open ? "▲" : "▼"}</span>
-              </button>
+      {/* Menu Content */}
+      <motion.div
+        initial={{ y: -20, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        exit={{ y: -20, opacity: 0 }}
+        className="absolute top-20 left-4 right-4 bg-white/95 backdrop-blur-md shadow-2xl z-50 rounded-[2rem] overflow-hidden border border-gray-100 md:hidden"
+      >
+        <ul className="flex flex-col p-6 gap-2 text-gray-800 font-medium">
+          
+          {/* Home Link */}
+          <li>
+            <Link 
+              href="/" 
+              onClick={() => setMenuOpen(false)}
+              className="flex items-center p-3 rounded-2xl hover:bg-red-50 hover:text-red-600 transition-all"
+            >
+              Home
+            </Link>
+          </li>
 
+          {/* Trips Dropdown */}
+          <li className="border-t border-gray-50 pt-2">
+            <button
+              onClick={() => setOpen(!open)}
+              className={`flex justify-between items-center w-full p-3 rounded-2xl transition-all ${
+                open ? "bg-red-50 text-red-600" : "hover:bg-gray-50"
+              }`}
+            >
+              <span className="flex items-center gap-2">Trips</span>
+              <span className={`transition-transform duration-300 ${open ? "rotate-180" : ""}`}>
+                ▼
+              </span>
+            </button>
+
+            <AnimatePresence>
               {open && (
-                <ul className="ml-4 mt-2 flex flex-col gap-2">
-                  <li><Link href="/chardham_yatra" onClick={()=>{setMenuOpen(false); setOpen(false);}}>Char Dham Yatra</Link></li>
-                  <li><Link href="/kashmir-backpacking-trip" onClick={()=>{setMenuOpen(false); setOpen(false);}}>Kashmir</Link></li>
-                  <li><Link href="/ladakh_bike_tour" onClick={()=>{setMenuOpen(false); setOpen(false);}}>Ladakh</Link></li>
-                  <li><Link href="/spiti_bike_tour" onClick={()=>{setMenuOpen(false); setOpen(false);}}>Spiti</Link></li>
-                  <li><Link href="/manali" onClick={()=>{setMenuOpen(false); setOpen(false);}}>Manali</Link></li>
-                </ul>
+                <motion.ul 
+                  initial={{ height: 0, opacity: 0 }}
+                  animate={{ height: "auto", opacity: 1 }}
+                  exit={{ height: 0, opacity: 0 }}
+                  className="overflow-hidden ml-4 mt-1 border-l-2 border-red-100 flex flex-col gap-1"
+                >
+                  {[
+                    { name: "Char Dham Yatra", href: "/chardham_yatra" },
+                    { name: "Kashmir", href: "/kashmir-backpacking-trip" },
+                    { name: "Ladakh", href: "/ladakh_bike_tour" },
+                    { name: "Spiti", href: "/spiti_bike_tour" },
+                    { name: "Manali", href: "/manali" },
+                  ].map((trip) => (
+                    <li key={trip.href}>
+                      <Link
+                        href={trip.href}
+                        onClick={() => { setMenuOpen(false); setOpen(false); }}
+                        className="block p-3 text-sm text-gray-600 hover:text-red-600 rounded-xl hover:bg-red-50/50"
+                      >
+                        {trip.name}
+                      </Link>
+                    </li>
+                  ))}
+                </motion.ul>
               )}
-            </li>
+            </AnimatePresence>
+          </li>
 
-            <li><Link href="/about" onClick={()=>{setMenuOpen(false); setOpen(false);}}>About</Link></li>
-            <li><Link href="/contact" onClick={()=>{setMenuOpen(false); setOpen(false);}}>Contact Us</Link></li>
-          </ul>
-        </div>
-      )}
+          {/* About & Contact */}
+          <li className="border-t border-gray-50 pt-2">
+            <Link 
+              href="/about" 
+              onClick={() => setMenuOpen(false)}
+              className="flex items-center p-3 rounded-2xl hover:bg-red-50 hover:text-red-600 transition-all"
+            >
+              About Us
+            </Link>
+          </li>
+          
+          <li>
+            <Link 
+              href="/contact" 
+              onClick={() => setMenuOpen(false)}
+              className="flex items-center p-4 mt-2 bg-red-600 text-white rounded-2xl font-bold justify-center shadow-lg shadow-red-200 active:scale-95 transition-transform"
+            >
+              Book Now ✈️
+            </Link>
+          </li>
+        </ul>
+      </motion.div>
+    </>
+  )}
+</AnimatePresence>
     </section>
   );
 };

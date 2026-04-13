@@ -13,7 +13,8 @@ const Navbar = () => {
     <section className="w-[90%] md:w-4/5 m-auto rounded-full fixed top-5 left-1/2 -translate-x-1/2 z-50 bg-white/30 backdrop-blur-md border-b border-white/20 flex items-center justify-between px-4 md:px-10 h-20">
       
       {/* Logo */}
-      <div className="flex items-center gap-11 md:gap-3 font-bold text-2xl uppercase">
+      
+      <div className="flex items-center md:gap-3 font-bold text-2xl ">
        <Link href={"/"} className="relative w-16 h-16 md:w-18 md:h-18">
   <Image
     src="/image/namasteindiaFinelLogo.jpeg"
@@ -22,10 +23,10 @@ const Navbar = () => {
     className="rounded-full object-cover"
   />
 </Link>
-        <span className="text-lg text-shadow-blue-400 font-custom">namastehind
-          {/* <br /><small className="">testin words</small> */}
-        </span>
       </div>
+        <span className="text-lg uppercase md:relative md:-left-75 text-shadow-blue-400 font-custom text-center font-bold">namastehind
+          {/* <br /><small className="">testing words</small> */}
+        </span>
 
       {/* Desktop Menu */}
       <div className="hidden md:flex items-center gap-6 text-lg font-sans">
@@ -80,7 +81,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="absolute top-20 left-0 w-full bg-white shadow-md md:hidden z-50">
+        <div className="absolute top-20 left-0 w-full bg-white shadow-md md:hidden z-50 rounded-xl">
           <ul className="flex flex-col p-4 gap-3 text-black">
             
             <li><Link href="/" onClick={()=>{setMenuOpen(false); setOpen(false);}}>Home</Link></li>

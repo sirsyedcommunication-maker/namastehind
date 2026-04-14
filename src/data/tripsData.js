@@ -70,7 +70,7 @@ const tripsData = [
   {
   id: 7,
   slug: "char-dham-yatra/9n10d",
-  title: "Char Dham Yatra [Haridwar to Haridwar]",
+  title: "Char Dham Yatra",
   image: "https://images.unsplash.com/photo-1623952146070-f13fc902f769?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", 
   description: "The Char Dham Yatra is a sacred pilgrimage covering four revered Hindu shrines in Uttarakhand: Yamunotri, Gangotri, Kedarnath, and Badrinath. Experience a soul-purifying journey through the Greater Himalayan Range.",
   duration: "10 Days 9 Nights",

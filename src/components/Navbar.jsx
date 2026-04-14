@@ -25,7 +25,7 @@ const Navbar = () => {
   />
 </Link>
       </div>
-        <span className="text-lg uppercase md:relative md:-left-75 text-shadow-blue-400 font-custom text-center font-bold">namastehind
+        <span className="text-lg uppercase md:relative md:left-30 md:text-2xl text-shadow-blue-400 font-custom text-center font-bold">namastehind
           {/* <br /><small className="">testing words</small> */}
         </span>
 

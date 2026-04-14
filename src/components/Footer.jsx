@@ -41,16 +41,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Social */}
-        <div>
-          <h3 className="text-lg font-semibold mb-3">Social Media</h3>
-          <div className="flex  gap-4 text-gray-400">
-            <Link href={'https://www.facebook.com/share/1Mt6sNLUBn/'} className="cursor-pointer hover:text-white"><FaFacebook /></Link>
-            <Link href={'https://www.instagram.com/namaste_hind?igsh=MXNscWZ2NTM5ejZ0OA=='} className="cursor-pointer hover:text-white"><FaInstagram /></Link>
-            {/* <span className="cursor-pointer hover:text-white">Working With Us</span>
-            <span className="cursor-pointer hover:text-white">Be Our Partner</span> */}
-          </div>
-        </div>
+        
         <div>
           <h3 className="text-lg font-semibold mb-3">Support</h3>
           <div className="flex flex-col gap-4 text-gray-400">
@@ -66,6 +57,16 @@ export default function Footer() {
             {/* <span className="cursor-pointer hover:text-white">+91 7879 455 155</span> */}
             <span className="cursor-pointer hover:text-white">info@namastehind.com</span>
             {/* <span className="cursor-pointer hover:text-white"></span> */}
+          </div>
+        </div>
+        {/* Social */}
+        <div>
+          <h3 className="text-lg font-semibold mb-3">Social Media</h3>
+          <div className="flex  gap-4 text-gray-400">
+            <Link href={'https://www.facebook.com/share/1Mt6sNLUBn/'} className="cursor-pointer hover:text-white"><FaFacebook /></Link>
+            <Link href={'https://www.instagram.com/namaste_hind?igsh=MXNscWZ2NTM5ejZ0OA=='} className="cursor-pointer hover:text-white"><FaInstagram /></Link>
+            {/* <span className="cursor-pointer hover:text-white">Working With Us</span>
+            <span className="cursor-pointer hover:text-white">Be Our Partner</span> */}
           </div>
         </div>
       </div>

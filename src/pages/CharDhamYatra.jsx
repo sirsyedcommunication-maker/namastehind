@@ -5,28 +5,28 @@ import Link from "next/link";
 
 const trips = [
   {
-    slug: "char-dham-yatra/4n5d",
-    title: "Char Dham Yatra - 4N/5D",
+    slug: "char-dham-yatra/9n10d",
+    title: "CharDham Yatra 10D/9N Per Person",
     image: "https://images.unsplash.com/photo-1715457573748-8e8a70b2c1be?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    duration: "5 Days 4 Nights",
-    price: 16999,
-    oldPrice: 18699,
+    duration: "10 Days 9 Nights",
+    price: 24999,
+    oldPrice: 30000,
   },
   {
-    slug: "char-dham-yatra/5n6d",
-    title: "Char Dham Yatra - 5N/6D",
+    slug: "do-dham-yatra/5n6d",
+    title: "Do Dham Yatra 6D/5N Per Person",
     image: "https://images.unsplash.com/photo-1614591276564-7b3e69347a48?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     duration: "6 Days 5 Nights",
-    price: 18999,
+    price: 15999,
     oldPrice: 20899,
   },
   {
-    slug: "char-dham-yatra/6n7d",
-    title: "Char Dham Yatra - 6N/7D",
+    slug: "kedarnath-yatra/3n4d",
+    title: "Kedarnath Yatra 4D/3N Per Person",
     image: "https://images.unsplash.com/photo-1643449416258-5c8e7ec598b1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    duration: "7 Days 6 Nights",
-    price: 20999,
-    oldPrice: 23099,
+    duration: "4 Days 3 Nights",
+    price: 9999,
+    oldPrice: 14999,
   },
 ];
 

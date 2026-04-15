@@ -4,6 +4,7 @@ import { Geist, Geist_Mono, Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import WhatsAppIcon from "@/components/WhatsAppIcon";
 
 const myCustomFont = localFont({
   src: [{ path: '../fonts/AbrilFatface-Regular.otf', weight: '400', style: 'normal' },
@@ -74,6 +75,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         <main className="min-h-screen">
           {children}
+          <WhatsAppIcon />
         </main>
         <Footer />
       </body>

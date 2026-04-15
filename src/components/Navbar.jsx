@@ -59,11 +59,11 @@ const Navbar = () => {
           {open && (
             <div className="absolute top-full mt-2 w-44 bg-white shadow-lg rounded-lg z-50">
               <ul className="py-2 text-black">
-                <li><Link href="/chardham_yatra" className="block px-4 py-2 hover:bg-gray-100">Char Dham Yatra</Link></li>
-                <li><Link href="/kashmir-backpacking-trip" className="block px-4 py-2 hover:bg-gray-100">Kashmir</Link></li>
-                <li><Link href="ladakh_bike_tour" className="block px-4 py-2 hover:bg-gray-100">Ladakh</Link></li>
-                <li><Link href="/spiti_bike_tour" className="block px-4 py-2 hover:bg-gray-100">Spiti</Link></li>
-                <li><Link href="/manali" className="block px-4 py-2 hover:bg-gray-100">Manali</Link></li>
+                <li><Link href="/chardham_yatra" onClick={() => setOpen(false)} className="block px-4 py-2 hover:bg-gray-100">Char Dham Yatra</Link></li>
+                <li><Link href="/kashmir-backpacking-trip" onClick={() => setOpen(false)} className="block px-4 py-2 hover:bg-gray-100">Kashmir</Link></li>
+                <li><Link href="/ladakh_bike_tour" onClick={() => setOpen(false)} className="block px-4 py-2 hover:bg-gray-100">Ladakh</Link></li>
+                <li><Link href="/spiti_bike_tour" onClick={() => setOpen(false)} className="block px-4 py-2 hover:bg-gray-100">Spiti</Link></li>
+                <li><Link href="/manali" onClick={() => setOpen(false)} className="block px-4 py-2 hover:bg-gray-100">Manali</Link></li>
               </ul>
             </div>
           )}

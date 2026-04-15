@@ -7,6 +7,8 @@ import BookingForm from '@/components/BookingForm';
 import ManaliDestination from '@/pages/ManaliDestination';
 import Testimonials from '@/pages/Testimonials';
 import tripsData from "@/data/tripsData";
+import CharDhamYatra from '@/pages/CharDhamYatra';
+import LadakhBike from '@/pages/LadakhBike';
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
       <HeroCarousel />
       <Page2 />
       <TripCard />
+      <CharDhamYatra />
+      <LadakhBike />
       <Destinations />
       <ManaliDestination />
       <Testimonials />

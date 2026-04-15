@@ -5,29 +5,29 @@ import Link from "next/link";
 
 const trips = [
   {
-    slug: "kashmir-backpacking-trip/4n5d",
-    title: "Kashmir Backpacking Trip - 4N/5D",
+    slug: "kashmir-backpacking/5n6d",
+    title: "Kashmir Group Trip - 5N/6D",
     image: "https://images.unsplash.com/photo-1715457573748-8e8a70b2c1be?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    duration: "5 Days 4 Nights",
-    price: 16999,
+    duration: "6 Days 5 Nights",
+    price: 13499,
     oldPrice: 18699,
   },
   {
-    slug: "kashmir-backpacking-trip/5n6d",
-    title: "Kashmir Backpacking Trip - 5N/6D",
+    slug: "kashmir-backpacking/4n5d-srinagar",
+    title: "Mystical Kashmir Backpacking",
     image: "https://images.unsplash.com/photo-1614591276564-7b3e69347a48?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    duration: "6 Days 5 Nights",
-    price: 18999,
-    oldPrice: 20899,
+    duration: "5 Days 4 Nights",
+    price: 14999,
+    oldPrice: 20999,
   },
-  {
-    slug: "kashmir-backpacking-trip/6n7d",
-    title: "Kashmir Backpacking Trip - 6N/7D",
-    image: "https://images.unsplash.com/photo-1643449416258-5c8e7ec598b1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    duration: "7 Days 6 Nights",
-    price: 20999,
-    oldPrice: 23099,
-  },
+  // {
+  //   slug: "kashmir-backpacking-trip/6n7d",
+  //   title: "Kashmir Backpacking Trip - 6N/7D",
+  //   image: "https://images.unsplash.com/photo-1643449416258-5c8e7ec598b1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  //   duration: "7 Days 6 Nights",
+  //   price: 20999,
+  //   oldPrice: 23099,
+  // },
 ];
 
 export default function Destinations() {

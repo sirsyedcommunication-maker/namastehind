@@ -173,7 +173,7 @@ export default function TripDetails() {
               <MapPin className="text-red-600" size={24}/> 
               <div>
                 <p className="text-xs text-gray-400 uppercase font-bold">Base Location</p>
-                <p className="font-semibold text-gray-800">Haridwar</p>
+                <p className="font-semibold text-gray-800">{trip.location}</p>
               </div>
             </div>
           </div>

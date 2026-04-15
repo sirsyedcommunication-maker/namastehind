@@ -4,11 +4,12 @@ import Destinations from '@/pages/Destinations';
 import Page2 from '@/pages/Page2';
 import "../app/globals.css"
 import BookingForm from '@/components/BookingForm';
-import ManaliDestination from '@/pages/ManaliDestination';
+// import ManaliDestination from '@/pages/ManaliDestination';
 import Testimonials from '@/pages/Testimonials';
 import tripsData from "@/data/tripsData";
 import CharDhamYatra from '@/pages/CharDhamYatra';
 import LadakhBike from '@/pages/LadakhBike';
+import SpitiBike from '@/pages/SpitiBike';
 
 export default function Home() {
   return (
@@ -21,7 +22,8 @@ export default function Home() {
       <CharDhamYatra />
       <LadakhBike />
       <Destinations />
-      <ManaliDestination />
+      {/* <ManaliDestination /> */}
+      <SpitiBike />
       <Testimonials />
     </div>
     </>

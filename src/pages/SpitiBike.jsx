@@ -8,9 +8,9 @@ const trips = [
     slug: "winter-spiti-backpacking/8n9d",
     title: "Winter Spiti Backpacking Trip 2026",
     image: "https://images.unsplash.com/photo-1617159156637-dfb8655c9f95?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    duration: "5 Days 4 Nights",
-    price: 16999,
-    oldPrice: 18699,
+    duration: "9 Days 8 Nights",
+    price: 17999,
+    oldPrice: 19999,
   },
   // {
   //   slug: "spiti-bike-tour/5n6d",

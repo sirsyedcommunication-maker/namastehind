@@ -19,7 +19,7 @@ const tripsData = [
   image: "https://images.unsplash.com/photo-1715457573748-8e8a70b2c1be", 
   description: "Experience the 'Paradise on Earth' with our comprehensive 6-day backpacking trip. Explore the serene Dal Lake, the golden meadows of Sonamarg, and the breathtaking valleys of Pahalgam and Gulmarg.",
   duration: "6 Days 5 Nights",
-  price: 13499, 
+  price: 15999, 
  location: "Srinagar",
 
   highlights: [
@@ -55,9 +55,9 @@ const tripsData = [
     "Anything not explicitly mentioned in inclusions"
   ],
 
-  packages: [
-    { name: "Group Sharing", price: 13499 }
-  ],
+  // packages: [
+  //   { name: "Group Sharing", price: 13499 }
+  // ],
 
   essentials: [
     "Carry heavy woolens for high-altitude locations",
@@ -73,7 +73,7 @@ const tripsData = [
   image: "https://images.unsplash.com/photo-1614591276564-7b3e69347a48", 
   description: "A compact 5-day soulful journey through the heart of Kashmir. Starting from Srinagar, this trip covers the most iconic spots like Gulmarg, Sonamarg, and the hidden gem Doodhpatri.",
   duration: "5 Days 4 Nights",
-  price: 14999, 
+  price: 13999, 
   location: "Srinagar",
   highlights: [
     "Houseboat stay with Shikara ride in Srinagar",
@@ -107,9 +107,9 @@ const tripsData = [
     "Anything not explicitly mentioned"
   ],
 
-  packages: [
-    { name: "Srinagar Special Group", price: 14999 }
-  ],
+  // packages: [
+  //   { name: "Srinagar Special Group", price: 14999 }
+  // ],
 
   essentials: [
     "Book return flight after 3 PM on Day 5",
@@ -578,12 +578,12 @@ const tripsData = [
   ],
 
   // Pricing Tiers (Based on Package Cost table)
-  packages: [
-    { name: "Own Bike", price: 19999 + " + " + "5%"+" GST" },
-    { name: "Tempo Traveler", price: 24999 + " + " + "5%"+" GST" },
-    { name: "Sharing Bike Ride", price: 29999 + " + " + "5%"+" GST" },
-    { name: "Solo Bike Ride", price: 39999 + " + " + "5%"+" GST" }
-  ],
+  // packages: [
+  //   { name: "Own Bike", price: 19999 + " + " + "5%"+" GST" },
+  //   { name: "Tempo Traveler", price: 24999 + " + " + "5%"+" GST" },
+  //   { name: "Sharing Bike Ride", price: 29999 + " + " + "5%"+" GST" },
+  //   { name: "Solo Bike Ride", price: 39999 + " + " + "5%"+" GST" }
+  // ],
 
   // Mandatory Guidelines & Notes
   essentials: [
@@ -667,12 +667,12 @@ const tripsData = [
   ],
 
   // Pricing Tiers (Based on Package Cost table)
-  packages: [
-    { name: "Own Bike", price: 34999 + " + " + "5%"+" GST" },
-    { name: "Tempo Traveler", price: 39999 + " + " + "5%"+" GST" },
-    { name: "Sharing Bike Ride", price: 44999 + " + " + "5%"+" GST" },
-    { name: "Solo Bike Ride", price: 54999 + " + " + "5%"+" GST" }
-  ],
+  // packages: [
+  //   { name: "Own Bike", price: 34999 + " + " + "5%"+" GST" },
+  //   { name: "Tempo Traveler", price: 39999 + " + " + "5%"+" GST" },
+  //   { name: "Sharing Bike Ride", price: 44999 + " + " + "5%"+" GST" },
+  //   { name: "Solo Bike Ride", price: 54999 + " + " + "5%"+" GST" }
+  // ],
 
   // Mandatory Guidelines
   essentials: [
@@ -753,12 +753,12 @@ const tripsData = [
   ],
 
   // Pricing Tiers [cite: 4090]
-  packages: [
-    { name: "Own Bike", price: 34999 },
-    { name: "Tempo Traveler", price: 39999 },
-    { name: "Sharing Bike Ride", price: 44999 },
-    { name: "Solo Bike Ride", price: 54999 }
-  ],
+  // packages: [
+  //   { name: "Own Bike", price: 34999 },
+  //   { name: "Tempo Traveler", price: 39999 },
+  //   { name: "Sharing Bike Ride", price: 44999 },
+  //   { name: "Solo Bike Ride", price: 54999 }
+  // ],
 
   // Mandatory Guidelines [cite: 4108]
   essentials: [
@@ -787,7 +787,7 @@ const tripsData = [
   image: "https://images.unsplash.com/photo-1617159156637-dfb8655c9f95?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", 
   description: "Experience the magic of the 'Middle Land' in its most pristine winter form. Journey through snow-covered landscapes from Delhi to Shimla, explore ancient monasteries like Key and Tabo, and visit the world's highest post office at Hikkim.",
   duration: "9 Days 8 Nights",
-  price: 19999, // Base price for group
+  price: 17999, // Base price for group
   location: "Delhi",
 
   highlights: [
@@ -830,11 +830,11 @@ const tripsData = [
   ],
 
   // PDF ke hisab se updated 3 packages
-  packages: [
-    { name: "Tempo Traveler", price: 19999 + " + " +"5%" +" GST" },
-    { name: "Double Sharing Ride", price: 29999 + " + " +"5%" +" GST"},
-    { name: "Solo Bike Ride", price: 39999 + " + " +"5%" +" GST"}
-  ],
+  // packages: [
+  //   { name: "Tempo Traveler", price: 19999 + " + " +"5%" +" GST" },
+  //   { name: "Double Sharing Ride", price: 29999 + " + " +"5%" +" GST"},
+  //   { name: "Solo Bike Ride", price: 39999 + " + " +"5%" +" GST"}
+  // ],
 
   essentials: [
     "Extreme cold weather gear is mandatory (heavy jackets, thermals, gloves)",

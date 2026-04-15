@@ -59,11 +59,11 @@ const Navbar = () => {
           {open && (
             <div className="absolute top-full mt-2 w-44 bg-white shadow-lg rounded-lg z-50">
               <ul className="py-2 text-black">
-                <li><Link href="/chardham_yatra" onClick={() => setOpen(false)} className="block px-4 py-2 hover:bg-gray-100">Char Dham Yatra</Link></li>
+                <li><Link href="/chardham_yatra" onClick={() => setOpen(false)} className="block px-4 py-2 hover:bg-gray-100">CharDham</Link></li>
                 <li><Link href="/kashmir-backpacking-trip" onClick={() => setOpen(false)} className="block px-4 py-2 hover:bg-gray-100">Kashmir</Link></li>
                 <li><Link href="/ladakh_bike_tour" onClick={() => setOpen(false)} className="block px-4 py-2 hover:bg-gray-100">Ladakh</Link></li>
                 <li><Link href="/spiti_bike_tour" onClick={() => setOpen(false)} className="block px-4 py-2 hover:bg-gray-100">Spiti</Link></li>
-                <li><Link href="/manali" onClick={() => setOpen(false)} className="block px-4 py-2 hover:bg-gray-100">Manali</Link></li>
+                {/* <li><Link href="/manali" onClick={() => setOpen(false)} className="block px-4 py-2 hover:bg-gray-100">Manali</Link></li> */}
               </ul>
             </div>
           )}
@@ -136,11 +136,11 @@ const Navbar = () => {
                   className="overflow-hidden ml-4 mt-1 border-l-2 border-red-100 flex flex-col gap-1"
                 >
                   {[
-                    { name: "Char Dham Yatra", href: "/chardham_yatra" },
+                    { name: "CharDham", href: "/chardham_yatra" },
                     { name: "Kashmir", href: "/kashmir-backpacking-trip" },
                     { name: "Ladakh", href: "/ladakh_bike_tour" },
                     { name: "Spiti", href: "/spiti_bike_tour" },
-                    { name: "Manali", href: "/manali" },
+                    // { name: "Manali", href: "/manali" },
                   ].map((trip) => (
                     <li key={trip.href}>
                       <Link

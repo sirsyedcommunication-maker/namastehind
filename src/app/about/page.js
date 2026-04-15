@@ -43,7 +43,7 @@ export default function AboutSection() {
             <Link href={"/contact"} className="inline-flex items-center justify-center rounded-full bg-blue-700 px-8 py-3 text-white shadow-lg shadow-blue-200/50 transition hover:bg-blue-800">
               Book Your Trip
             </Link>
-            <span className="text-sm text-slate-500">Call us at <strong>+91 98765 43210</strong> for custom plans.</span>
+            <span className="text-sm text-slate-500">Call us at <strong>+91 970 976 5557</strong> for custom plans.</span>
           </div>
 
           <div className="grid gap-4 sm:grid-cols-3">

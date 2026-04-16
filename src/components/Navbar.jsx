@@ -18,16 +18,17 @@ const Navbar = () => {
       <div className="flex items-center md:gap-3 font-bold text-2xl ">
        <Link href={"/"} className="relative w-16 h-16 md:w-18 md:h-18">
   <Image
-    src="/image/namasteindiaFinelLogo.jpeg"
+    // src="/image/namasteindiaFinelLogo.jpeg"
+    src="/image/namasteHindlogo2.jpg"
     alt="logo"
     fill
     className="rounded-full object-cover"
   />
 </Link>
       </div>
-        <span className="text-lg uppercase md:relative md:left-30 md:text-2xl text-shadow-blue-400 font-custom text-center font-bold">namastehind
+        <Link href={'/'} className="text-lg uppercase md:relative md:left-30 md:text-2xl text-shadow-blue-400 font-custom text-center font-bold">namastehind
           {/* <br /><small className="">testing words</small> */}
-        </span>
+        </Link>
 
       {/* Desktop Menu */}
       <div className="hidden md:flex items-center gap-6 text-lg font-sans">

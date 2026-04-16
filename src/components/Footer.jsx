@@ -16,7 +16,7 @@ export default function Footer() {
          <div className="flex items-center gap-3 font-bold text-2xl uppercase">
        <Link href={"/"} className="relative w-16 h-16 md:w-18 md:h-18">
   <Image
-    src="/image/namasteindiaFinelLogo.jpeg"
+    src="/image/namasteHindlogo2.jpg"
     alt="logo"
     fill
     className="rounded-full object-cover"

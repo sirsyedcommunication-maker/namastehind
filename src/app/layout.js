@@ -41,7 +41,7 @@ export const metadata = {
   authors: [{ name: "Jay Pawar" }],
   creator: "ByteWings Technology",
   icons: {
-    icon: "/image/namastehindLogo.jpeg", // Aapka logo file public folder mein hona chahiye
+    icon: "/image/namasteHindlogo2.jpg", // Aapka logo file public folder mein hona chahiye
     apple: "/logo.png",
   },
   openGraph: {
@@ -51,7 +51,7 @@ export const metadata = {
     siteName: "Namaste Hind",
     images: [
       {
-        url: "/image/namasteindiaFinelLogo.jpeg", // Link share hone par jo image dikhegi
+        url: "/image/namasteHindlogo2.jpg", // Link share hone par jo image dikhegi
         width: 1200,
         height: 630,
       },

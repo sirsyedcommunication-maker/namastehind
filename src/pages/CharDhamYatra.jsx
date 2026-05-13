@@ -9,15 +9,15 @@ const trips = [
     title: "CharDham Yatra 10D/9N Per Person",
     image: "/image/char-dham-blog-banner-scaled.webp",
     duration: "10 Days 9 Nights",
-    price: 24999,
-    oldPrice: 30000,
+    price: 19499,
+    oldPrice: 24999,
   },
   {
     slug: "do-dham-yatra/5n6d",
     title: "Do Dham Yatra 6D/5N Per Person",
     image: "/image/dodham image.png",
     duration: "6 Days 5 Nights",
-    price: 15999,
+    price: 14499,
     oldPrice: 20899,
   },
   {
@@ -25,7 +25,7 @@ const trips = [
     title: "Kedarnath Yatra 4D/3N Per Person",
     image: "https://images.unsplash.com/photo-1612438214708-f428a707dd4e?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     duration: "4 Days 3 Nights",
-    price: 9999,
+    price: 9499,
     oldPrice: 14999,
   },
 ];

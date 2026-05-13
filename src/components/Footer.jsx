@@ -73,7 +73,7 @@ export default function Footer() {
 
       {/* Bottom Section */}
       <div className="border-t border-gray-700 text-center py-4 text-gray-400 text-sm">
-        © {new Date().getFullYear()} NamasteHind. All rights reserved.
+        © {new Date().getFullYear()} NamasteHind & <Link href={'https://bytewings.in/'}>ByteWings Technology</Link>. All rights reserved.
       </div>
 
     </footer>

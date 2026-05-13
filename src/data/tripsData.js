@@ -182,7 +182,7 @@ const tripsData = [
   image: "/image/char-dham-blog-banner-scaled.webp", 
   description: "The Char Dham Yatra is a sacred pilgrimage covering four revered Hindu shrines in Uttarakhand: Yamunotri, Gangotri, Kedarnath, and Badrinath. Experience a soul-purifying journey through the Greater Himalayan Range.",
   duration: "10 Days 9 Nights",
-  price: 24999, 
+  price: 19499, 
   location: "Haridwar",
 
   highlights: [
@@ -223,7 +223,7 @@ const tripsData = [
   ],
 
   packages: [
-    { name: "Budget", price: 24999 },
+    { name: "Budget", price: 19499 },
     // { name: "Standard", price: 27499 },
     // { name: "Deluxe", price: 32499 }
   ],
@@ -320,7 +320,7 @@ const tripsData = [
   image: "/image/dodham image.png", // Kedarnath aur Badrinath ki combined image best rahegi
   description: "Experience the spiritual bliss of the Do Dham Yatra, covering two of the most sacred Hindu shrines in Uttarakhand: Kedarnath (Lord Shiva) and Badrinath (Lord Vishnu). A journey of faith amidst the majestic Himalayas.",
   duration: "6 Days 5 Nights ",
-  price: 15999, // Budget price 
+  price: 14499, // Budget price 
   location: "Haridwar",
   // Quick Highlights [cite: 393, 401]
   highlights: [
@@ -362,7 +362,7 @@ const tripsData = [
 
   // Pricing Tiers [cite: 505]
   packages: [
-    { name: "Budget", price: 15999 },
+    { name: "Budget", price: 14499 },
     // { name: "Standard", price: 15999 },
     // { name: "Deluxe", price: 17999 }
   ],
@@ -397,7 +397,7 @@ const tripsData = [
   image: "https://images.unsplash.com/photo-1612438214708-f428a707dd4e?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", 
   description: "Embark on a soul-stirring journey to Kedarnath, one of the twelve Jyotirlingas and a part of the Panch Kedar. Situated at 3,583 meters, this sacred shrine dedicated to Lord Shiva offers a deep spiritual experience amidst the majestic Garhwal Himalayas.",
   duration: "4 Days 3 Nights",
-  price: 9999, // Starting Budget Price 
+  price: 9499, // Starting Budget Price 
   location: "Haridwar",
   // Quick Highlights
   highlights: [
@@ -452,7 +452,7 @@ const tripsData = [
 
   // Pricing Tiers [cite: 755]
   packages: [
-    { name: "Budget", price: 9999 },
+    { name: "Budget", price: 9499 },
     // { name: "Standard", price: 11999 },
     // { name: "Deluxe", price: 13999 }
   ],

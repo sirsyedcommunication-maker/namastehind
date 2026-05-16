@@ -38,6 +38,11 @@ const slides = [
   },
 ];
 
+export const metadata = {
+  title: "Best Travel Packages in India",
+  description:
+    "Book Char Dham Yatra, Ladakh, Kashmir, Spiti, and Manali travel packages with Namaste Hind.",
+};
 export default function HeroCarousel() {
   const [current, setCurrent] = useState(0);
   const [open, setOpen] = useState(false); // dropdown
@@ -50,7 +55,6 @@ export default function HeroCarousel() {
 
     return () => clearInterval(interval);
   }, []);
-
   return (
     <div className="relative w-full h-screen object-cover overflow-hidden">
 
